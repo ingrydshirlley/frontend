@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+    margin: 32px;
+    min-height: 50vh;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.aluno {
+    height: 200px;
+    width: 200px;
+}
+
+.aluno__title {
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.nota {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.nota__title {
+    text-align: center;
+    padding: 8px;
+    font-size: 100px;
+}
+
+.vermelho {
+    background-color: rgb(255, 0, 0);
+}
+
+.verde {
+    background-color: rgb(12, 134, 33);
+}
