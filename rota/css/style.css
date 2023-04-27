@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+.menu-container {
+    height: 100%;
+    font-size: 2rem;
+    background-color: plum;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    gap: 24px;
+}
+
+#root{
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    color: white;
+
+}
+
+.home-container{
+    background-color: black;
+}
+
+.azul-container{
+    background-color: blue;
+}
+
+.vermelho-container{
+    background-color: red;
+}
