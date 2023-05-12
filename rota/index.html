@@ -15,6 +15,8 @@
 
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/app.js" defer type="module"></script>
+    <script src="./js/cards-home.js" defer></script>
+    
     
     <script src="./app.js" defer></script>
     <script src="./card.js" defer></script>
@@ -22,14 +24,6 @@
 </head>
 
 <body>
-    <!-- <header>
-        <nav class="menu-container">
-            <a href="/" onclick="route()"> Home </a>
-            <a href="/vermelho" onclick="route()"> Vermelho </a>
-            <a href="/azul" onclick="route()"> Azul </a>
-        </nav>
-    </header> -->
-
     <header>
         <nav class="container-header">
             <div class="logo">
@@ -38,9 +32,9 @@
             </div>
 
             <div class="menu">
-                <a href="/" onclick="route()">Home</a>
-                <a href="/vermelho" onclick="route()">Favorites</a>
-                <a href="/azul" onclick="route()">All Dogs</a>
+                <a href="./index.html">Home</a>
+                <a href="/favorites" onclick="route()">Favorites</a>
+                <a href="/all-dogs" onclick="route()">All Dogs</a>
             </div>
         </nav>
     </header>
@@ -54,10 +48,9 @@
                 <input type="text" id="searchInput" placeholder="Find a different dog:" class="inputs">
             </div>
         </div>
-
+    
         <div class="main-card">
             <div id="container-card">
-                <script src="./front-js/cards-home.js"></script>
             </div>
             <span id="see">See More...</span>
         </div>
