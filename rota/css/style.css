@@ -1,5 +1,3 @@
-
-
 * {
     padding: 0;
     margin: 0;
@@ -77,18 +75,6 @@ main {
     font-weight: 700;
 }
 
-.search {
-    width: 80%;
-}
-
-.inputs {
-    width: 100%;
-    height: 50px;
-    padding-left: 5%;
-    border: 1px solid grey;
-    background-color: rgba(247, 247, 247, 0.834);
-    border-radius: 10px;
-}
 
 .container-card {
     width: 100%;
@@ -101,7 +87,7 @@ main {
     background-color: chartreuse;
 }
 
-#see{
+#see {
     width: 150px;
     height: 30px;
     display: flex;
@@ -155,7 +141,7 @@ footer {
     display: flex;
 }
 
-.sec-1 span{
+.sec-1 span {
     padding-left: 10px;
 }
 
@@ -180,7 +166,7 @@ footer {
     height: 250px;
 }
 
-.main-card{
+.main-card {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -189,7 +175,7 @@ footer {
     gap: 20px;
 }
 
-.card{
+.card {
     text-align: center;
     font-size: 15px;
     background-color: #f5c292;
@@ -206,7 +192,7 @@ footer {
     cursor: pointer;
 }
 
-#container-card{
+#container-card {
     width: 100%;
     display: flex;
     gap: 50px;
@@ -214,9 +200,92 @@ footer {
     justify-content: center
 }
 
-.descriptionElement{
+.descriptionElement {
     font-size: 15px;
     font-weight: normal;
 }
 
 
+@media only screen and (max-width: 600px) {
+
+    /* Reduz a altura das linhas da grade do corpo */
+    body {
+        grid-template-rows: 8% auto 14%;
+    }
+
+    /* Define o tamanho da fonte do título */
+    .title {
+        font-size: 2.5rem;
+        background-color: #F47107;
+        width: 90%;
+        display: flex;
+        text-align: center;
+    }
+
+    /* Define o tamanho da fonte do menu */
+    .menu {
+        font-size: 12px;
+        width: 60%;
+        justify-content: start;
+    }
+
+    .logo{
+        font-size: 24px;
+        width: 40%;
+    }
+
+
+    /* Atualiza a largura e a altura do botão "ver" */
+    #see {
+        width: 120px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    /* Reduz o tamanho das cartas e a largura do contêiner */
+    .main-card {
+        width: 80%;
+        gap: 10px;
+        background-color: aquamarine;
+        display: grid;
+    }
+
+    .card {
+        font-size: 12px;
+        width: 300px;
+        height: 350px;
+        gap: 5px;
+    }
+
+    #container-card{
+        background-color: blueviolet;
+        display: grid;
+    }
+    /* Atualiza o tamanho da imagem */
+    .card img {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* Atualiza a largura e o espaçamento dos itens de rodapé */
+    .sec-1,
+    .sec-2,
+    .sec-3 {
+        width: 100%;
+        gap: 5px;
+    }
+
+    /* Reduz o tamanho da fonte dos itens de rodapé */
+    .support,
+    .social,
+    .logo-footer {
+        font-size: 12px;
+    }
+
+    .home-body{
+        background-color: chartreuse;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+}

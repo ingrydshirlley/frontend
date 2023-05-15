@@ -1,10 +1,11 @@
-.favourites{
-    width: 100%;
-    overflow: auto;
-    margin: 30px;
-    margin-top: 30px;
+.favourites {
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: calc(80px + 10px); /* adicionando 10px de margem para a barra de rolagem */
 }
-
 .favourites h1{
     text-align: center;
     color: coral;
@@ -20,4 +21,18 @@
     text-align: inherit;
     color: rgb(47, 20, 10);
     padding-top: 5px;
+}
+
+.favourites::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.favourites::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.favourites::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
 }
