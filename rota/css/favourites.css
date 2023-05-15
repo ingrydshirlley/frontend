@@ -1,0 +1,23 @@
+.favourites{
+    width: 100%;
+    overflow: auto;
+    margin: 30px;
+    margin-top: 30px;
+}
+
+.favourites h1{
+    text-align: center;
+    color: coral;
+}
+
+.favourites h3{
+    text-align: inherit;
+    color: rgb(127, 53, 26);
+    padding-top: 15px;
+}
+
+.favourites h4{
+    text-align: inherit;
+    color: rgb(47, 20, 10);
+    padding-top: 5px;
+}
